@@ -42,8 +42,7 @@ El script te pedirá el nombre de un club, lo buscará, mostrará sus detalles y
 ```
 ├── main.py               → Script principal (CLI interactiva)
 ├── fc26_api_class.py     → Cliente de la API (descargado de fc26-clubs-api)
-├── requirements.txt      → Dependencias
-└── .clinerules/          → Reglas de Cline
+└── requirements.txt      → Dependencias
 ```
 
 ## API
