@@ -42,7 +42,8 @@ def main() -> None:
         sys.exit(1)
 
     club_id = club["clubId"].iat[0]
-    print(f"\nClub encontrado: {club['name'].iat[0]} (ID: {club_id})")
+    nombre = club["clubName"].iat[0]
+    print(f"\nClub encontrado: {nombre} (ID: {club_id})")
 
     # Obtener detalles del club
     detalles = api.get_club_details(club_id)
